@@ -1,0 +1,996 @@
+{
+    "walletModal": {
+        "title": "Wallet",
+        "tabs": {
+            "deposit": "Depósito",
+            "withdraw": "Retirar",
+            "promocode": "Código promocional"
+        },
+        "enter": "Mandar",
+        "address": "Endereço de depósito",
+        "loading": "Carregando...",
+        "copy": "Cópia de",
+        "amount": "Valor do depósito",
+        "withdrawAmount": "Quantia",
+        "cardholder": "Nome do Titular",
+        "pixType": "Tipo de PIX",
+        "chavePix": "Chave PIX",
+        "withdrawAddress": "Endereço de retirada",
+        "creating": "Criando...",
+        "deposit": "Depósito",
+        "promotion": "Bônus de primeiro depósito <span>≥ 100</span> <div class=\"sep\">|</div> <img alt src=\"/img/misc/deposit-50-bonus.png\"> 50% Bônus",
+        "depositNotes": {
+            "title": "Notas de Depósito:",
+            "1": "Min. depósito: R$ 10",
+            "2": "Máx. depósito: R$ 4999",
+            "3": "Insira valores como múltiplos de 10, para um processamento mais rápido.",
+            "4": "Insira suas informações corretamente para garantir que seu pagamento seja processado o mais rápido possível."
+        },
+        "withdraw": "Retirar",
+        "withdrawNotes": {
+            "title": "Instruções de retirada",
+            "1": "Número de saques no nível VIP atual: {amount}",
+            "2": "Taxa de saque: {fee}%",
+            "3": "Valor de saque mensal gratuito:",
+            "4": "Pedido mínimo de retirada: {min}",
+            "5": "Pedido máximo de retirada: {max}",
+            "6": "Hora de pegar: 11:00 - 19:00",
+            "7": "Tempo de pagamento: de 5 minutos a 24 horas."
+        },
+        "status": "Você pode ver o status de seus depósitos no centro de contas."
+    },
+    "userModal": {
+        "joined": "Ingressou em {date}",
+        "wagered": "Apostado",
+        "totalGames": "Total de jogos"
+    },
+    "faucet": {
+        "spin": "<b>Lucky Spin</b><span>GIRE PARA CHEGAR <b>R$777</b></span>",
+        "btn": "Gire Agora",
+        "timeout": "Volte em 20 minutos para ter outra chance!"
+    },
+    "footer": {
+        "features": {
+            "title": "Característicos",
+            "affiliates": "Afiliados",
+            "referral": "Referência",
+            "promotions": "Promoções",
+            "daily": "Bônus Diários",
+            "sport": "Esporte",
+            "liveSport": "Esporte ao vivo",
+            "more": "Mais",
+            "fairness": "Justiça",
+            "privacy": "Política de Privacidade",
+            "terms": "Termos de serviço",
+            "support": "Suporte ao vivo"
+        },
+        "legal": "Este site oferece jogos com experiência de risco. Para ser um usuário do nosso site, você deve ter mais de 18 anos. Não somos responsáveis pela violação de suas leis locais relacionadas ao i-gaming. Jogue com responsabilidade e divirta-se no BetDino.",
+        "copy": "Direitos autorais &copiar; BetDino. Todos os direitos reservados."
+    },
+    "promotions": {
+        "vip": {
+            "title": "<span>Exclusivo</span> Bônus VIP",
+            "description": "Para retribuir a todos os usuários do BetDino, o mecanismo de recompensa VIP já está aberto. Contanto que você possa cumprir os requisitos, você pode receber bônus generosos!",
+            "activity": "<span>Atividade</span> Requisitos",
+            "activity2": "Os jogadores atualizam para um novo nível VIP, você receberá bônus grátis, sem requisitos de retirada.",
+            "bonus": "Bônus do evento",
+            "bonus2": "Os jogadores podem receber recompensas correspondentes quando atingem o nível VIP.",
+            "vip": "VIP",
+            "vip2": "VIP {level}",
+            "reminder": {
+                "1": "Lembrete especial",
+                "2": "Cada jogador pode receber o bônus correspondente para cada atualização, e o bônus pode ser substituído."
+            },
+            "reminder2": {
+                "1": "<span>Detalhado</span> Descrição",
+                "2": "Garanta a veracidade e exclusividade do seu nome, informações de contato e CPF. Se o mesmo jogador usar IPs de rede diferentes para registrar várias contas e receber bônus, isso será considerado trapaça e sua conta será congelada permanentemente."
+            },
+            "reminder3": {
+                "1": "<span>Instruções</span> por participar do evento:",
+                "2": "A partir do dia do anúncio do evento, você só poderá receber o bônus se atualizar seu VIP"
+            }
+        },
+        "invite": {
+            "title": "<span>Convidar</span> Amigos para criar riqueza juntos",
+            "description": "Torne-se um dos nossos principais parceiros Alcance uma renda mensal de R$ 100.000",
+            "desc": "Programa de referência",
+            "desc2": "Deixe o mundo saber sobre Betdino - indique mais pessoas e ganhe muito dinheiro, tendo mais chances de complementar sua renda.",
+            "code": "Obtenha um código de referência exclusivo",
+            "copy": "Copiar código",
+            "1": "Se você é um blogueiro ou influenciador, tem um grande público e seguidores. Temos recompensas especiais para você! (Programa de afiliados com as maiores recompensas por indicação)",
+            "2": "Observação importante: Somente usuários que passaram na solicitação do gerente e aprovaram, podem participar do programa",
+            "consult": "Consulta",
+            "invited": "Convidamos:",
+            "totalBet": "Aposta total:",
+            "totalDeposit": "Depósito total:"
+        },
+        "benefits": {
+            "title": "<span>Milhões</span> de Benefícios do Distribuidor",
+            "description": "Para incentivar todos os usuários do BetDino, milhões de benefícios são oferecidos a agentes competentes que atendem aos requisitos para receber um bônus generoso.",
+            "activity": {
+                "1": "Requisitos da atividade",
+                "2": "Os agentes que convidarem novos usuários com recarga válida receberão um super bônus pelo convite."
+            },
+            "bonus": {
+                "1": "Bônus do evento",
+                "2": "Os agentes também podem receber recompensas adicionais por atingirem diferentes níveis de referência."
+            },
+            "table": {
+                "title": "Bônus de conquista",
+                "active": "Usuários ativos",
+                "bonus": "Bônus de conquista",
+                "desc": "<span>Usuários ativos:</span> registrado através do seu link de convite e depositado Quando você atingir o número necessário de usuários ativos, você receberá um bônus adicional Quanto mais convidados você tiver, maior será o bônus",
+                "reminder": {
+                    "1": "Lembrete especial",
+                    "2": "Sem requisitos de retirada, quanto mais usuários os Agentes convidarem e recarregarem, maior será a classificação e maiores serão os benefícios."
+                },
+                "details": {
+                    "1": "Detalhes",
+                    "2": "Garanta a veracidade e exclusividade do seu nome, CPF único Se a mesma corretora usar IPs de rede diferentes para cadastrar várias contas e receber bônus, isso será considerado fraude e sua conta será congelada permanentemente."
+                }
+            },
+            "guide": {
+                "1": "INSTRUÇÕES PARA PARTICIPAR DO EVENTO",
+                "2": "Da data do anúncio até a entrega do prêmio de um milhão de reais em bônus. As regras oficiais da campanha ficam a critério exclusivo do BetDino."
+            }
+        },
+        "bonus50": {
+            "title": "<span>Venha</span> e ganhe 50% de bônus!",
+            "description": "Para agradecer sua confiança e apoio no BetDino, seu primeiro depósito bem-sucedido de mais de R$ 100, o BetDino lhe dará um bônus grátis de 50% do valor do depósito, desejo sinceramente que você ganhe mais! seu depósito, o bônus será automaticamente creditado em sua conta, portanto, verifique o sistema quanto a mensagens enviadas a você",
+            "title2": "Requisitos e bônus",
+            "limit": {
+                "1": "Limite de depósito",
+                "2": "R$ 100 OU MAIS"
+            },
+            "bonus": {
+                "1": "Bônus",
+                "2": "50% do valor do depósito"
+            },
+            "rules": "Regras",
+            "list": {
+                "1": "Apenas o primeiro pedido com valor de depósito de R$ 100 ou mais pode participar deste evento, e este evento só pode participar uma vez",
+                "2": "Condições de saque: o valor efetivo da aposta é igual ou superior a 20 vezes ou mais da soma do valor do depósito e do valor do bônus",
+                "3": "Depois de completar o depósito, enviando o pedido no centro de promoção pessoal, você receberá o bônus da sorte do BetDino e os bônus podem ser jogados e sacados!",
+                "4": "Certifique-se de que seu nome, detalhes de contato e número do Seguro Social sejam precisos e exclusivos. Se o mesmo jogador usar IPs de rede diferentes para registrar várias contas para reivindicar o prêmio, isso será considerado trapaça e sua conta será congelada permanentemente."
+            }
+        }
+    },
+    "vip": {
+        "totalDeposits": "Depósitos totais",
+        "totalWagered": "Apostas totais",
+        "logged": {
+            "title": "Seu nível vip é",
+            "level": "Nível {level}",
+            "deposit": "Depósito",
+            "bet": "Aposta",
+            "description": "Atualizando para VIP {level} requer:",
+            "dep": "Depósito",
+            "full": "Bônus vip completo",
+            "desc2": "O sistema de níveis VIP BetDino é criado com 10 níveis, cada um com um prêmio em dinheiro correspondente. Quanto mais você jogar, maior será o nível VIP e mais você receberá.",
+            "totalBet": "Valor da Aposta Acumulada",
+            "totalDeposit": "Valor do Depósito Acumulado",
+            "steps": {
+                "1": "Faça uma aposta em um jogo original ou AO VIVO e o mecanismo MONEY BACK calculará automaticamente o valor de retorno com base no seu nível VIP à medida que você aproveita o jogo.",
+                "2": "O mecanismo de reembolso será liquidado no saldo da sua conta às 0:00 com base nas suas apostas feitas ao longo do dia.",
+                "3": "Quanto mais você joga, maior o seu dinheiro de volta."
+            }
+        },
+        "title": "Muitos benefícios com",
+        "title2": "Sistema de classificação",
+        "benefits": {
+            "1": {
+                "title": "Níveis & Recompensas",
+                "description": "Quanto mais você joga - mais você ganha"
+            },
+            "2": {
+                "title": "AUMENTO DE CASHBACK",
+                "description": "Receba até 25% de suas moedas de volta"
+            },
+            "3": {
+                "title": "PROMOÇÕES EXCLUSIVAS",
+                "description": "Alcance uma classificação mais alta para desbloquear benefícios exclusivos"
+            },
+            "4": {
+                "title": "CLUBE VIP",
+                "description": "Faça parte do VIP Club para obter bônus exclusivos"
+            }
+        },
+        "how": {
+            "1": "Como funciona?",
+            "2": "Você começa seu caminho de jogo a partir do 1º Rank - NOVATO. Quanto mais você joga – mais alto é o seu Rank. Ele sobe de acordo com o valor apostado ao jogar no BetDino"
+        },
+        "youCanReach": {
+            "1": "VOCÊ PODE ALCANÇAR 10 NÍVEIS",
+            "2": "Alcance o Rank mais alto - LEGEND para obter um bônus de reembolso de 25% e abrir todos os benefícios da plataforma. Fique com BetDino para receber a melhor experiência de jogo e excelente serviço"
+        },
+        "allLevels": {
+            "level": "Nível {level}",
+            "oneTimeBonus": "Bônus Único",
+            "withdraws": "Retira",
+            "fee": "Taxa de saque",
+            "depositFeeRef": "Taxa de depósito de referência",
+            "claim": "Bônus de Reivindicação",
+            "yourLevel": "Seu nivel",
+            "about": {
+                "title": "SOBRE O CLUBE VIP",
+                "description": "High top Rank - LEGEND tem 25% de bônus de cashback e os melhores benefícios. Fique com BetDino para receber a melhor experiência de jogo e alto nível de serviço!",
+                "sub": "Ser membro do clube VIP significa que você tem acesso a:",
+                "features": {
+                    "1": "Gerente VIP pessoal",
+                    "2": "Percepções",
+                    "3": "Maiores recompensas de cashback",
+                    "4": "Bônus semanais e mensais",
+                    "5": "Outras vantagens adicionais"
+                }
+            }
+        },
+        "steps": {
+            "playNow": "Jogue agora",
+            "1": {
+                "title": "LOGIN NO BETDINO",
+                "description": "Use um sistema de login simplificado para aproveitar toda a experiência de jogo no BetDino"
+            },
+            "2": {
+                "title": "JOGUE OS JOGOS FAVORITOS",
+                "description": "Divirta-se jogando, obtenha a melhor experiência de jogo e alto nível de serviço!"
+            },
+            "3": {
+                "title": "AUMENTE SEU RANKING",
+                "description": "Suba para o próximo Rank! Cada nível tem seu bônus e ainda mais oportunidades!"
+            }
+        }
+    },
+    "affiliate": {
+        "title": "Afiliado",
+        "title2": "Commission ready everyday",
+        "title3": "<span>R$ 1,000,00</span> apenas uma referência de distância",
+        "create": "Criar código de referência agora",
+        "title4": "Start Earning Today",
+        "description": "Se você tiver alguma oferta especial em relação à cooperação ou tiver acesso a um grande público. Por favor, sinta-se à vontade para entrar em contato com nosso gerente por <a href=\"https://example.com\">Telegram</a>. We're happy to discuss individual terms of the affiliate program tailored to you.",
+        "1": {
+            "title": "Construa o seu próprio<br>Clube de cassino rapidamente",
+            "description": "É difícil construir um cassino, mas você pode começar gerenciando sua própria mesa no BETDINO",
+            "description2": "<span>BETDINO</span> não é apenas jogos, é uma plataforma para realizar o potencial de seus sonhos ocultos. Junte-se à BETDINO e embarque em um novo capítulo em sua jornada de riqueza imediatamente!"
+        },
+        "2": {
+            "title": "Construa um site de cassino<br>com seu próprio domínio.",
+            "description": "Se você tem seu próprio plano. você pode configurar um site de cassino com seu próprio domínio, estilo de design e tema. Se você for capaz de convidar jogadores e seu valor de aposta atingir um bilhão de dólares ou mais, você poderá obter seu próprio cassino personalizado!",
+            "description2": "Contato <a href=\"mailto:Affiliate@betdino.com\">Affiliate@betdino.com</a> for more details"
+        },
+        "sep": "<span>Afiliado</span> Sistema de recompensa",
+        "sepDesc": "Click \"Criar código de referência agora\" e parta para um novo capítulo em sua jornada de riqueza imediatamente!",
+        "3": {
+            "title": "R$ Recompensas",
+            "description": "Cada amigo que você convidar vai<br>pegar você <span>R$ 1000</span>",
+            "vip": "Nível VIP",
+            "rewards": "Recompensas",
+            "vipLevel": "VIP {level}"
+        },
+        "4": {
+            "title": "Recompensas de comissão",
+            "description": "Cada amigo que você convidar rebaterá uma porcentagem de suas apostas como sua comissão e será creditado diretamente no seu saldo.",
+            "content": "Seus membros indicados irão rebater uma porcentagem de seus salários como sua comissão. Por favor veja abaixo:"
+        }
+    },
+    "referral": {
+        "tabs": {
+            "invite": "Convidar",
+            "forms": "Formulários",
+            "stats": "Estatisticas"
+        },
+        "history": {
+            "user": "Do utilizador",
+            "type": "Modelo",
+            "amount": "Quantia",
+            "date": "Encontro",
+            "empty": "Você ainda não recebeu nenhum bônus."
+        },
+        "forms": {
+            "title": "Lucro hoje",
+            "bc": "Comissão de apostas",
+            "ib": "Bônus de convite",
+            "description": "Seu lucro consistirá em dois componentes - Bônus de Convite e Comissão de Apostas<ul><li>Comissão de Apostas: Esta será sua receita principal e você receberá uma porcentagem diferente de cada aposta que convidar os jogadores a fazer como comissão.</li><li>Bônus de convite: o usuário que você convidar para depositar pela primeira vez receberá um bônus em dinheiro de R$8</li></ul>",
+            "total": "Lucro total",
+            "deposited": "Usuários depositados",
+            "desc": "Você recebe uma comissão por cada aposta que convidar os usuários a fazer, ganhar ou perder. Portanto, tudo o que você precisa fazer é melhorar suas habilidades de jogo, pensar em como vencer o jogo e compartilhá-lo com todos para ajudar mais pessoas a vencer com seu método. Queremos que todos os jogadores se divirtam no BetDino, seja a diversão de ganhar apostas ou o próprio jogo!"
+        },
+        "invite": {
+            "title": "Convide um parceiro",
+            "url": "URL de convite:",
+            "code": "Código de convite:",
+            "deposited": "Usuários depositados",
+            "bonus": "Bônus hoje",
+            "yesterday": "Bônus de ontem",
+            "issued": "Prêmios emitidos hoje",
+            "bonus2": "Bônus de convite",
+            "bc": "Comissão de apostas",
+            "how": "Como funciona o bônus de convite?",
+            "how2": "Bônus de convite",
+            "how3": "Cada usuário de depósito pode receber pelo menos <b>R$8</b> para cada convite. Quanto mais pessoas você convidar, maior será o bônus de convite para o nível correspondente.<br>Para regras específicas, consulte a tabela abaixo",
+            "deposited2": "Depositado",
+            "bonus3": "Bônus",
+            "commission": {
+                "title": "COMO OBTER COMISSÃO NAS SUAS APOSTAS",
+                "description": "Regras de convite: O nível de convite válido pode atingir o nível 3 e a recompensa de desconto de aposta é <br>- [Level 1- <b>0.15%</b> ]<br>- [Level 2- <b>0.07%</b> ] <br>- [Level 3- <b>0.02%</b> ]<br>Tempo de emissão da recompensa: liquidação e emissão em tempo real<div class=\"more\">Por exemplo, a taxa de convite é A convida B, B convida C, C convida D, D convida E. Quando E aposta 10000BRL<br>※ D can get 10000 * 0.15% = <b>15 R$</b><br>※ C can get 10000 * 0.07% = <b>7 R$</b><br>※ B can get 10000 * 0.02% = <b>2 R$</b><br>※ A não tem retorno em três Níveis.</div>",
+                "description2": "Esta será sua renda de longo prazo e você receberá uma porcentagem diferente de comissão cada vez que um jogador que você convidar fizer uma aposta."
+            },
+            "calculator": {
+                "title": "Calculadora de Renda",
+                "description": "Convidar {amount} Ativos dos usuários Renda anual esperada a ser obtida"
+            },
+            "leaderboard": {
+                "title": "Entre os melhores",
+                "place": "Topo {place}"
+            },
+            "whoWon": {
+                "title": "Quem ganhou o prêmio"
+            }
+        }
+    },
+    "profile": {
+        "tabs": {
+            "balance": "Gestão de saldo",
+            "history": "Histórico da conta",
+            "invite": "Convidar",
+            "responsible": "Jogo Responsável"
+        },
+        "balance": {
+            "balance": "Equilíbrio",
+            "myLevel": "Meu nível VIP",
+            "deposit": "Depósito",
+            "bet": "Aposta",
+            "allLevels": "Todos os níveis",
+            "withdraw": "Retirar",
+            "available": "Disponível",
+            "bonus": "Bônus"
+        },
+        "invite": {
+            "tabs": {
+                "invite": "Convidar",
+                "invited": "Pessoas convidadas",
+                "bonus": "Bônus"
+            },
+            "title": "Convide amigos e crie riqueza juntos",
+            "description": "Quer ganhar mais renda facilmente? Você quer que seus amigos encontrem uma maneira de ficar rico? Junte-se a nós e vamos trabalhar juntos!",
+            "copyInvite": "Copiar URL de convite",
+            "copyInviteCode": "Copiar código de convite",
+            "wagered": "Apostado",
+            "deposited": "Depositado",
+            "name": "Do utilizador",
+            "activity": "Está ativo",
+            "empty": "Ninguém se registrou usando seu link ou código de convite.",
+            "bonus": {
+                "user": "Do utilizador",
+                "type": "Modelo",
+                "amount": "Quantia",
+                "date": "Encontro",
+                "deposit_fee": "Depósito",
+                "activity_bonus": "Referência ativa",
+                "millions_of_distributor_benefits": "Milhões de Benefícios do Distribuidor",
+                "empty": "Você ainda não recebeu nenhum bônus."
+            }
+        },
+        "responsible": {
+            "tabs": {
+                "bets": "Limite de tempo de aposta",
+                "deposit": "Limite de Depósito"
+            },
+            "betBan": "Você não pode fazer apostas até {time}",
+            "description": "Se você quiser fazer uma pausa temporária, pode usar nosso recurso de tempo limite para fazer uma pausa de 1 a 30 dias.",
+            "send": "Envie agora",
+            "depositBan": "Seu limite de depósito: R$ {amount}, Ativo até {time}",
+            "depositDescription": "Limite de depósito permite que você defina um limite na quantidade de dinheiro que você deposita em sua conta online.",
+            "depositSet": "Definir valor do depósito (R$):",
+            "time": "Para o próximo (1/7/14/30) dias"
+        },
+        "history": {
+            "tabs": {
+                "deposit": "Histórico de depósitos",
+                "withdraw": "Histórico de retirada",
+                "game": "Histórico do jogo"
+            },
+            "deposit": "Depósito",
+            "paid": "Pago",
+            "pending": "Pendente",
+            "cancelled": "Cancelado",
+            "noDeposits": "Você ainda não depositou.",
+            "name": "Retirar",
+            "sum": "Quantia",
+            "date": "Encontro",
+            "status": "Status",
+            "noWithdraws": "Você ainda não retirou nada.",
+            "withdraw": {
+                "moderation": "Pendente",
+                "cancel": "Cancelar",
+                "declined": "Recusado",
+                "reason": "Razão",
+                "cancelled": "Cancelado"
+            }
+        }
+    },
+    "paymentError": {
+        "title": "Erro",
+        "description": "Desculpe, o serviço de pagamento está temporariamente indisponível. Tente mais tarde."
+    },
+    "sliderDescription": {
+        "title": "<span>Ao melhor</span> site de apostas",
+        "description": "Casino onde todos são tratados como um <b>VIP!</b>",
+        "description2": "Casino feito para os jogadores com até <b>15%</b> Dinheiro de volta.",
+        "description3": "<b>Diário $1000</b> Concurso de apostas!",
+        "signUp": "Inscrever-se",
+        "spin": "Roda Dino Girar Grátis",
+        "win": "e Ganhe até <b>R$777</b>",
+        "logged": {
+            "title": "<span>BetDino</span>, O melhor cassino de jogos",
+            "description": "<b>BetDino</b> apresenta as mais generosas e variadas",
+            "description2": "bônus. <b>Convide amigos</b> ganhar até <span>R$15</span> bônus cada"
+        }
+    },
+    "comingSoon": "Em breve",
+    "fairness": {
+        "title": "Como verificar<br>justiça?",
+        "description": "Mesmo o resultado da Sorte no BetDino é<br>absolutamente aleatório. Verifique você mesmo!",
+        "how": "Como funciona?",
+        "how2": "O princípio comprovadamente justo é baseado na tecnologia SHA256, a mesma do Bitcoin. O procedimento de verificação do resultado das apostas permite que você verifique a justiça de cada aposta.",
+        "01": {
+            "title": "Encontre a semente do seu cliente e o nonce",
+            "description": "A semente do cliente pode ter qualquer valor. Por padrão, é gerado aleatoriamente - abra as configurações do jogo e encontre-o lá, mas você pode alterá-lo.<br>Nonce começa em 1 e aumenta em 1 toda vez que você inicia um novo jogo."
+        },
+        "02": {
+            "title": "Fazer uma aposta",
+            "description": "A semente do servidor será gerada, mas ficará oculta até você terminar o jogo.<br>Open \"História\" guia e veja seu último jogo. Todas as informações estarão aqui - incluindo a semente do servidor.<br>Agora você tem 3 valores - server e client seed ao lado de nonce."
+        },
+        "03": {
+            "title": "Verificar",
+            "description": "Insira semente do cliente, semente do servidor e nonce no verificador. O resultado deve ser idêntico."
+        }
+    },
+    "third-party": {
+        "unavailable_currency": "Desculpe, mas você não pode jogar com esta moeda.",
+        "guest": "Você precisa fazer o login para jogar este jogo."
+    },
+    "chat":{
+        "service": {
+            "channel_change": "Canal alterado para: {channel}",
+            "channel_casino": "Cassino ({lang})",
+            "channel_sport": "Esporte ({lang})"
+        },
+        "error":{
+            "length":"A mensagem é muito curta ou longa",
+            "muted":"O bate-papo está desativado"
+        }
+    },
+    "dice":{
+        "lower":"Mais baixo",
+        "higher":"Mais alto",
+        "chance":"Chance"
+    },
+    "error":{
+        "code":"Ocorreu um erro interno do servidor ({code})",
+        "wait_finish":"Espere o jogo terminar",
+        "validation":{
+            "required":"Preencha este campo",
+            "min":{
+                "string":"O valor é muito pequeno"
+            },
+            "max":{
+                "string":"O valor é muito grande"
+            },
+            "unique":"Este valor já foi cadastrado",
+            "regex":"Valor inválido"
+        },
+        "invalid_browser":"<h1>Seu navegador da web está desatualizado.</h1>Para jogar no betdino.io, você precisa atualizar para a versão mais recente.",
+        "no_js":"<h1>Erro</h1>Seu navegador da web não suporta JavaScript."
+    },
+    "game_help":{
+        "next":"Próximo",
+        "close":"Perto",
+        "dice":{
+            "1":"Defina a chance do controle deslizante de ganhar e clique \"Toque\", para gerar um resultado de 0 - 100",
+            "2":"Se os ossos caírem na zona verde escolhida - você ganhou!"
+        },
+        "wheel":{
+            "1":"Selecione um modo de jogo, aposte na cor e aperte \"Toque\"",
+            "2":"Se a roda parar no setor de cores que você escolheu, você ganhou!"
+        },
+        "x50":{
+            "1":"Selecione um modo de jogo, aposte na cor e aperte \"Toque\"",
+            "2":"Se a roda parar no setor de cores que você escolheu, você ganhou!"
+        },
+        "plinko":{
+            "1":"Faça uma aposta, selecione a dificuldade do jogo e o número de pinos e clique \"Toque\"",
+            "2":"Quanto maior a complexidade do jogo e o número de pinos, maiores serão as chances de vitória máxima e mínima",
+            "3":"Sua recompensa é determinada pela proporção de vitórias, dependendo de onde a bola caiu"
+        },
+        "keno":{
+            "1":"Escolha de 1 a 10 células com números, faça uma aposta e clique \"Toque\"",
+            "2":"Em seguida, o sistema seleciona aleatoriamente 10 números. Quanto mais acertos em seus números, maior o ganho!"
+        },
+        "mines":{
+            "1":"Faça uma aposta, selecione o número de bombas e clique \"Toque\"",
+            "2":"Quanto maior o número de bombas no campo de jogo, maior a taxa de vitórias.",
+            "3":"Procure por pedras, mas cuidado com as bombas!",
+            "4":"Ganhe antes de detonar uma bomba e perder uma aposta!"
+        },
+        "diamonds":{
+            "1":"Obtenha a melhor combinação de diamantes para ganhar.",
+            "2":"A melhor combinação é 5 diamantes idênticos.",
+            "3":"A hierarquia de combinação é semelhante ao poker tradicional."
+        },
+        "coinflip":{
+            "1":"Faça uma aposta e clique \"Toque\" e adivinhe que cor vai cair.",
+            "2":"Você pode adivinhar uma moeda um número ilimitado de vezes por jogo, todos os coeficientes serão somados."
+        },
+        "blackjack":{
+            "1":"Faça uma aposta, após a qual você e o dealer receberão duas cartas.",
+            "2":"Então você pode pegar outra carta ou parar e não mudar a mão atual.",
+            "3":"By clicking on \"Dobro\" você dobra sua aposta e pega a última carta.",
+            "4":"O seguro está disponível apenas quando a primeira carta do dealer é um ás e assegura-lhe das mãos de um dealer com blackjack.",
+            "5":"O vencedor é o mais próximo de 21. Se você e o dealer tiverem o mesmo valor - haverá um sorteio."
+        },
+        "roulette":{
+            "1":"Coloque fichas em qualquer resultado do jogo e clique \"Toque\"",
+            "2":"Se você adivinhou o resultado do jogo, você multiplica sua aposta."
+        },
+        "baccarat":{
+            "1":"Você pode apostar na vitória de um jogador, banqueiro ou empate tanto individualmente quanto em qualquer combinação.",
+            "2":"A vitória é conquistada pela parte com mais pontos próximos a 9. Quando um valor de 10 ou mais é definido, apenas o segundo dígito do número de dois dígitos é levado em consideração.",
+            "3":"Se em uma aposta individual em um jogador ou banqueiro ambas as partes ganharem a mesma quantidade de pontos, o resultado é um empate sem perder uma aposta.",
+            "4":"A distribuição máxima em uma mão é de 3 cartas. O mínimo é 2 se o total de pontos for 5 ou mais."
+        },
+        "hilo":{
+            "1":"Adivinhe se a próxima carta será maior ou menor do que a anterior na classificação.",
+            "2":"Abra um número ilimitado de cartões, as probabilidades são adicionadas. Você pode parar a qualquer momento e pegar os ganhos"
+        },
+        "limbo":{
+            "1":"Para ganhar, a proporção de pagamento alvo especificada deve ser menor do que a que caiu no jogo.",
+            "2":"A taxa de destino máxima é de 1.000.000."
+        },
+        "crash":{
+            "1":"Faça uma aposta, clique \"Toque\" e veja como a agenda cresce",
+            "2":"Retire fundos antes que o gráfico entre em colapso e você perca sua aposta."
+        },
+        "stairs":{
+            "1":"Faça uma aposta, selecione o número de pedras por jogada e clique \"Toque\"",
+            "2":"Suba as escadas cuidado para não cair nas pedras! Quanto mais alto você sobe, maior o ganho que você receberá. ",
+            "3":"Você pode obter uma vitória a qualquer momento ou passar por todos os 13 movimentos e obter a recompensa máxima."
+        },
+        "tower":{
+            "1":"Faça uma aposta, selecione o número de bombas e clique \"Toque\"",
+            "2":"Procure pedras movendo-se de cima para baixo, mas cuidado com as bombas!",
+            "3":"Ganhe antes de detonar uma bomba e perder uma aposta!"
+        },
+        "videopoker":{
+            "1":"Faça uma aposta e clique \"Toque\"",
+            "2":"Em seguida, você receberá 5 cartas. Você pode deixar os cartões que você precisa clicando neles. Para encerrar o jogo, clique em \"Cartões de oferta\" ",
+            "3":"Se a combinação for a mesma mostrada na tabela, você ganha e multiplica sua aposta."
+        },
+        "bullvsbear":{
+            "1":"Cada jogo começa determinando qual será o 'Preço de Exercício do Jogo' tomando o preço médio da moeda selecionada. Não estamos usando um oráculo de preços, mas, em vez disso, extraímos o preço de mercado diretamente do Price Websocket da Coinbase API. Esse número é o que os traders usarão para apostar na fase seguinte para prever se o preço de mercado estará acima ou abaixo do \"Preço de exercício do jogo\" no final de cada jogo.",
+            "2":"Uma vez definido o preço de exercício do jogo, os jogadores têm um minuto para apostar se o preço de mercado no final de cada jogo estará acima ou abaixo desse número. Todas as apostas são colocadas em dois grupos, aqueles que preveem o preço estará acima, e aqueles que prevêem o preço estarão abaixo.",
+            "3":"No final de cada jogo, as apostas do lado perdedor são agrupadas e distribuídas aos vencedores proporcionalmente. Se um jogador apostar mais do que os outros vencedores, ele receberá mais do prêmio. Agora, se um jogador perder , suas perdas também são proporcionais ao tamanho delas, ou seja, se um jogador apostar mais do que os outros jogadores, nessa situação esse jogador não perderá toda a aposta, apenas uma fração.",
+            "4":"Queríamos evitar dar qualquer vantagem significativa aos últimos, por isso implementamos um fator de ganho de decaimento do tempo para incentivar as apostas imediatas - dando aos primeiros ganhos melhores ganhos (ou ganhos) e desencorajando as pessoas a fazer apostas no final da rodada . Como trader, você pode ficar de olho na volatilidade atual e fazer sua aposta esperando um pouco mais e obtendo ganhos menores, mas com maior probabilidade, ou, alternativamente, apostando cedo com maior ganho potencial, mas menor probabilidade de ganhar o jogo.",
+            "5":"Cada rodada de apostas dura 90 segundos e começa com o pagamento de x5,00. Ele diminui com o tempo até se tornar x1,01."
+        }
+    },
+    "general":{
+        "fairness": {
+            "client_seed": "Client seed",
+            "server_seed": "Server seed",
+            "nonce": "Nonce"
+        },
+        "viewAll": "Ver tudo",
+        "enjoy": "Desfrute de mais de 1000 jogos",
+        "search": "Pesquisar jogos",
+        "unavailable_country": "Seu endereço IP parece ser de {country}, uma jurisdição na qual não podemos aceitar jogadores legalmente. Ocasionalmente, este é um falso positivo, por exemplo. o resultado da conexão por meio de um servidor proxy em {country}. Nesse caso, você pode continuar desde que esteja localizado e resida onde tal serviço é legal. Lembre-se de que é sua obrigação obedecer às leis locais em todos os momentos.",
+        "not_in_this_country": "não estou localizado em {country}",
+        "slowmode": "O modo lento está ativado: 1 mensagem a cada 5 segundos",
+        "head":{
+            "vip": "VIP {level}",
+            "deposit": "Depósito",
+            "bet": "Aposta",
+            "user": {
+                "1": "VIP level",
+                "2": "Centro Pessoal",
+                "3": "Histórico do jogo",
+                "4": "Sair"
+            },
+            "bonusBalance": {
+                "title": "Bônus",
+                "available": "Disponível: {count}",
+                "empty": "Você não tem nenhum saldo de bônus disponível.\nVocê poderá escolher com qual saldo de bônus jogar.\nO saldo do bônus ficará disponível para saque assim que você cumprir o requisito.",
+                "balance": "Balance:",
+                "wager": "é necessário apostar para poder retirar este bônus",
+                "cancel": "Cancelar"
+            },
+            "allGames": "Todos os jogos",
+            "slots": "Slots",
+            "live": "Cassino ao vivo",
+            "originals": "Originais",
+            "promotions": "Promoções",
+            "index":"Casa",
+            "games":"Jogos",
+            "help":"Ajuda",
+            "wallet":"Depósito",
+            "wallet_open_demo":"Demonstração",
+            "wallet_real":"Real",
+            "wallet_demo":"Demonstração",
+            "chat":"Bater papo",
+            "admin":"Administrador",
+            "bonus":"Promoções",
+            "bonus_short":"Bônus",
+            "profile":"Perfil",
+            "logout":"Sair",
+            "casino": "Cassino",
+            "sport": "Esporte",
+            "view_in_fiat": "Ver em USD"
+        },
+        "sidebar":{
+            "promotions": "Promoções",
+            "bonus50": "Bônus de depósito único de 50%",
+            "vipBonus": "Bônus VIP Exclusivo",
+            "benefits": "Benefícios do Distribuidor",
+            "invite": "Convide amigos",
+            "allPromotions": "Todas as promoções",
+            "dashboard": "Painel",
+            "affiliates": "Afiliados",
+            "allGames": "Todos os jogos",
+            "vip": "VIP",
+            "allBonuses": "Todos os bônus",
+            "referral": "Referência",
+            "fairness": "Justiça",
+            "app": "Download do aplicativo",
+            "support": "Suporte ao vivo",
+            "all_games": "Jogos",
+            "admin": "Administrador",
+            "favorite": "Favorito",
+            "recent": "Recente",
+            "originals": "Originais",
+            "slots": "Slots",
+            "multiplayer": "Multijogador",
+            "blackjack": "Blackjack",
+            "poker": "Poker",
+            "table": "Table Games",
+            "instant": "Instant",
+            "roulette": "Roulette",
+            "baccarat": "Baccarat",
+            "no_games": "Esta categoria está vazia",
+            "mark_as_favorite": "Marcar como favorito",
+            "remove_from_favorite": "Remover dos favoritos",
+            "phoenix": "Phoenix"
+        },
+        "chat_commands":{
+            "/user":"Ver usuário",
+            "/bet":"Ver aposta",
+            "/ignore":"Ignorar usuário",
+            "/unignore":"Pare de ignorar o usuário",
+            "/tip":"Dica de usuário",
+            "/rain":"Faça chover",
+            "/online":"Visualizar usuários on-line",
+            "/quiz": "Questionário",
+            "/unmute": "Ativar o som do usuário",
+            "modal":{
+                "rain":{
+                    "amount":"Quantia",
+                    "number_of_users":"Número de usuários (Max 25)",
+                    "send":"Mandar",
+                    "invalid_users_length":"Número inválido de usuários",
+                    "invalid_amount":"Montante inválido"
+                },
+                "tip":{
+                    "amount":"Quantia",
+                    "send":"Enviar Dica",
+                    "user":"Nome de usuário",
+                    "make_public":"Tornar público",
+                    "invalid_name":"Nome de usuário Inválido",
+                    "invalid_amount":"Montante inválido",
+                    "notify":"{name} te deu uma gorjeta {value} {currency}"
+                },
+                "quiz": {
+                    "question": "Pergunta",
+                    "answer": "Responda"
+                }
+            }
+        },
+        "biggest_winner_today": "VENCEDORES DE SORTE",
+        "tip":"Tip",
+        "tip_chat":"<a href=\"{link}\">{name}</a> sent {value} {currency} to <a href=\"{tolink}\">{toname}</a>",
+        "or": "OR",
+        "wallet":{
+            "demo":{
+                "error":"Seu saldo de demonstração deve estar em zero",
+                "obtain":"Receba saldo de demonstração"
+            }
+        },
+        "demo":{
+            "title":"Atenção",
+            "description":"O registro é necessário se você quiser jogar com saldo real.",
+            "register":"Inscrever-se"
+        },
+        "chat":{
+            "enter_message":"Digite algo aqui..."
+        },
+        "auth":{
+            "code": "Código de convite (Optional)",
+            "login":"Conecte-se",
+            "register":"Inscrever-se",
+            "through_login":"Login e senha",
+            "through_social":"Redes sociais",
+            "wrong_credentials":"login ou senha errada",
+            "email_or_login": "Digite seu e-mail ou login",
+            "reset_password": "Redefinir senha",
+            "email_was_sent": "O e-mail foi enviado com sucesso. Caso não tenha recebido, verifique \"Spam\" folder.",
+            "passwords_invalid_match": "Verifique sua senha novamente",
+            "credentials":{
+                "login":"Conecte-se",
+                "password":"Senha",
+                "email":"E-mail"
+            },
+            "create_account":"Criar Conta",
+            "forgot_password":"Esqueceu sua senha?",
+            "notice":"Tenho pelo menos 18 anos e li e concordo com os Termos e Condições e a Política de Privacidade"
+        },
+        "notifications":{
+            "title":"Notificações",
+
+            "withdraw_accepted":{
+                "title":"betdino.io",
+                "message":"Sua solicitação de pagamento criada{diff} ({sum} {currency}) Foi aceito."
+            },
+            "withdraw_declined":{
+                "title":"betdino.io",
+                "message":"Sua solicitação de pagamento criada {diff} ({sum} {currency}) foi rejeitado. Razão: {reason}"
+            },
+            "vip_discord":{
+                "title":"VIP",
+                "message":"Você recebeu <svg style=\"width: 14px; height: 14px\"><use href=\"#vip-ruby\"></use></svg> status VIP rubi!"
+            },
+            "email_reminder":{
+                "title":"betdino.io",
+                "message":"Não\"t tse esqueça de adicionar o endereço de e-mail, caso contrário você pode perder o acesso à sua conta!"
+            },
+            "deposit":"Novo depósito: {sum} {currency}"
+        },
+        "play_now": "Jogue agora",
+        "become_top_player": "Ninguém ocupou este lugar na tabela de classificação hoje! Seja o primeiro a fazer isso!",
+        "lines":"Linhas",
+        "profit_per_line":"Valor da aposta por linha",
+        "invalid_amount_per_line":"Valor de aposta inválido por linha",
+        "ignore":"Adicionado com sucesso à lista de ignorados",
+        "unignore":"Você não ignora mais este usuário",
+        "ignored_already":"Você já ignorou este usuário",
+        "not_ignored":"Este usuário não é ignorado",
+        "not_available":"Indisponível",
+        "obtained":"Obtido",
+        "latest_bets": "Viver",
+        "bets":{
+            "event": "Evento",
+            "odds": "Chances",
+            "game":"Jogo",
+            "player":"Jogador",
+            "time":"Tempo",
+            "bet":"Aposta",
+            "mul":"Pagamento",
+            "win":"Lucro",
+            "manual":"Manual",
+            "auto":"Auto",
+            "games":"Número de jogos",
+            "victory_stop":"Parar na vitória",
+            "on_win":"Na vitória",
+            "on_loss":"Na perda",
+            "reset":"Redefinir",
+            "increase":"Aumentar",
+            "auto_games_blocked":"Para definir um limite, clique em &#8734;.",
+            "hidden":"O jogador escondeu seu perfil",
+            "hidden_name":"Escondido",
+            "make_bet":"Fazer uma aposta",
+            "all":"Tudo",
+            "mine":"Minhas apostas",
+            "high_rollers":"Grandes apostadores",
+            "lucky_wins":"Vencedores sortudos"
+        },
+        "error":{
+            "invalid_password_confirm":"As senhas\"t não correspondem",
+            "offline_node":"Não é possível processar pagamentos para esta moeda.",
+            "auth":"É necessária autorização",
+            "wager":"Quantidade mínima - {value}",
+            "disabled":"O jogo está temporariamente indisponível",
+            "unknown_game":"Jogo desconhecido",
+            "unknown_user":"Usuário desconhecido",
+            "invalid_wager":"Dinheiro insuficiente",
+            "unknown_error":"ocorreu um erro (code {code})",
+            "empty":"Selecionar células!",
+            "should_have_empty_balance":"Para receber um bônus, seu saldo deve ser zero.",
+            "autobet_pick_something":"Selecionar células para o modo de lance automático.",
+            "disabled_notifications":"Você se recusou a aceitar notificações. Isso pode ser alterado nas configurações do seu navegador.",
+            "connection_lost":"Conectando-se ao servidor...",
+            "connection_recovered":"Conexão restaurada",
+            "disabled_bets":"Aceitar apostas não está disponível no momento.",
+            "disabled_demo_bets":"Este jogo não aceita apostas no modo de demonstração.",
+            "muted":"O bate-papo é silenciado até {time}",
+            "invalid_withdraw":"Valor de saque inválido.",
+            "only_one_withdraw":"Você já ordenou a retirada.",
+            "enter_wallet":"Digite a carteira!",
+            "promo_limit":"Você atingiu seu limite de ativação do código promocional por dia.",
+            "autobet_mines_error":"Você selecionou mais células do que os cristais disponíveis.",
+            "vip_only_promocode":"Este código promocional só está disponível com status VIP.",
+            "promo_balance_limit": "Seu saldo deve ser menor para ativar códigos promocionais"
+        },
+        "profit_monitoring":{
+            "title":"Estatisticas",
+            "wager":"Aposta",
+            "profit":"Lucro",
+            "wins":"Vitórias",
+            "losses":"Perdas",
+            "no_data":"Sem dados"
+        },
+        "rain":"Está chovendo!<br>{sum} {currency}",
+        "snow":"Está nevando!<br>{sum} {currency}",
+        "quiz":"Question:",
+        "quiz_answer":"Correct answer:",
+        "quiz_user":"User:",
+        "chart":"Gráfico",
+        "hilo-skip":"Pular",
+        "crash":"DESTRUÍDO",
+        "yes":"Yes",
+        "no":"No",
+        "coming_soon":"Em breve",
+        "reload":"Recarrega",
+        "spin":"Rodar",
+        "wager":"Valor da aposta",
+        "chip":"Valor da ficha ({value})",
+        "profit":"Lucro",
+        "payout":"Pagamento",
+        "play":"Toque",
+        "our_games":"Nossos jogos",
+        "unit":"Unidade",
+        "cancel":"Cancelar",
+        "undo":"Desfazer",
+        "close":"Perto",
+        "change":"Mudar",
+        "even":"até",
+        "odd":"ímpar",
+        "to":"{1} - {2}",
+        "take":"Leva {value} {currency}",
+        "start":"Começar",
+        "stop":"Pare",
+        "overview":"Visão",
+        "share_text":"Assista meu jogo em betdino.io!",
+        "share_vk":"Compartilhe o link no VK",
+        "share_chat":"Enviar para conversar",
+        "share_telegram":"Compartilhe este jogo no Telegram",
+        "share_twitter":"Compartilhe este jogo no Twitter",
+        "share_link":"Compartilhe o link",
+        "link_copied":"Copiado!",
+        "game_mode":"Modo de jogo",
+        "color":"Cor",
+        "pins":"Número de pinos",
+        "autopick":"<i class=\"fas fa-wand-magic mr-1\"></i> Auto Pick",
+        "clear":"Claro",
+        "mines":"Número de minas",
+        "edit":"Editar",
+        "add":"Adicionar",
+        "already_purchased":"Comprado",
+        "purchase_sticker_pack":"Comprar para {coins} <i class=\"moedas de fas\"></i>",
+        "hilo-higher":"Mais alto",
+        "hilo-lower":"Mais baixo",
+        "hilo-same":"Mesmo",
+        "chance":"Chance",
+        "chat_at":"Modelo @<strong>username</strong> para notificar o usuário",
+        "autoStop":"Saque em",
+        "target_payout":"Pagamento desejado",
+        "win_chance":"Chance de ganhar",
+        "demo_popup_link":"Jogue por dinheiro",
+        "double":"Dobro",
+        "divide":"Dividir",
+        "got":"Pegou",
+        "videopoker":{
+            "f_r":"Royal Flush",
+            "s_f":"Straight Flush",
+            "k":"Four of a kind",
+            "f_h":"Full House",
+            "f":"Flash",
+            "s":"Straight",
+            "t":"Triple",
+            "t_p":"Two pairs",
+            "p":"Pair (J, Q, K, A)"
+        },
+        "deal":"Deal cards",
+        "stand":"Stand",
+        "hit":"Hit",
+        "split":"Split",
+        "insurance":"Você quer seguro?",
+        "accept":"Aceitar",
+        "decline":"Declínio",
+        "insurance_success":"Você comprou um seguro.",
+        "blackjack":{
+            "0":"Empate",
+            "1":"You lose",
+            "2":"You won",
+            "3":"You won",
+            "4":"You lose",
+            "5":"You won",
+            "6":"You lose"
+        },
+        "difficulty":{
+            "title":"Dificuldade",
+            "low":"Low",
+            "medium":"Medium",
+            "high":"High"
+        },
+        "baccarat":{
+            "player":"Jogador",
+            "tie":"Tie",
+            "pair_player":"{P} Pair",
+            "pair_banker":"{B} Pair",
+            "pair":"Pair",
+            "banker":"Banker",
+            "empty":"Seja o primeiro - faça uma aposta"
+        },
+        "verify":"Verify",
+        "black":"Black",
+        "red":"Red",
+        "green":"Green",
+        "yellow":"Yellow",
+        "blue":"Blue"
+    },
+    "404": {
+        "title": "Desculpe, esta página não está disponível.",
+        "subtitle": "O link que você seguiu pode estar quebrado ou a página pode ter sido removida."
+    },
+    "sport": {
+        "emptyCategoryTitle": "Nenhum evento está ao vivo no momento",
+        "live_events": "Eventos ao vivo",
+        "game_not_found": "O evento acabou ou não existe",
+        "game_is_closed": "As apostas estão fechadas",
+        "bet_slip": "Boletim de apostas",
+        "register_to_bet": "Registre-se para apostar",
+        "bet": "Aposta",
+        "single": "Solteiro",
+        "multi": "Multi",
+        "no_odds_changes": "Nenhuma alteração de probabilidades aceita",
+        "estimate_payout": "Husa. Pagamento",
+        "empty_bet_slip_title": "O Boletim de Aposta está vazio.",
+        "empty_bet_slip_subtitle": "Clique nas probabilidades para adicionar uma aposta",
+        "total_bet": "Aposta total",
+        "total_odds": "Probabilidades Totais",
+        "odds_change": "Probabilidades alteradas: {odds}",
+        "accept": "Aceitar",
+        "decline": "Declínio",
+        "not_enough_balance": "Não há equilíbrio suficiente",
+        "error": "Ocorreu um erro. Por favor, tente novamente em alguns segundos.",
+        "created": "As apostas foram feitas com sucesso!",
+        "my_bets": "Minhas apostas",
+        "ongoing": "Pendente",
+        "finished": "Finalizado",
+        "no_bets_title": "Nenhuma aposta nesta categoria.",
+        "index_welcome": "Adicione apostas esportivas em seu site.",
+        "lets_bet": "Visão",
+        "casino_welcome": "Welcome to Win5X.",
+        "no_category_events_slider": "Não {category} os eventos estão ao vivo agora.",
+        "outcome": {
+            "refund": "Devolveu",
+            "win": "Win",
+            "lose": "Lose"
+        },
+        "live": "Viver",
+        "line": "Linha",
+        "market": {
+            "yes": "Yes",
+            "no": "No",
+            "other": "Outro",
+            "basketballDryWin": "Um dos sets terminará com uma pontuação de 6:0 ou 0:6",
+            "bothTeamsWillScore": "Ambas as equipas vão marcar",
+            "doubleOutcome": "Resultado duplo",
+            "exactScore": "Pontuação exata",
+            "exactScoreNoOutcomeOther": "Pontuação exata (No outcome, Other)",
+            "handicap": "Handicap",
+            "firstPlayerWinsAnySet": "O primeiro jogador ganha um dos sets",
+            "secondPlayerWinsAnySet": "O segundo jogador ganha um dos sets",
+            "setWinner": "Set {set}: Winner",
+            "winner": "Winner",
+            "outcomeWithoutDraw": "Resultado não incluindo empate",
+            "winnerWithOT": "Winner (With Overtime)"
+        }
+    }
+}

@@ -1,0 +1,991 @@
+{
+    "walletModal": {
+        "title": "Wallet",
+        "tabs": {
+            "deposit": "Deposit",
+            "withdraw": "Withdraw",
+            "promocode": "Promocode"
+        },
+        "enter": "Send",
+        "address": "Deposit Address",
+        "loading": "Loading...",
+        "copy": "Copy",
+        "amount": "Deposit Amount",
+        "withdrawAmount": "Amount",
+        "cardholder": "Cardholder Name",
+        "pixType": "PIX Type",
+        "chavePix": "Chave PIX",
+        "withdrawAddress": "Withdraw Address",
+        "creating": "Creating...",
+        "deposit": "Deposit",
+        "promotion": "First Deposit Bonus <span>≥ 100</span> <div class=\"sep\">|</div> <img alt src=\"/img/misc/deposit-50-bonus.png\"> 50% Bonus",
+        "depositNotes": {
+            "title": "Deposit Notes:",
+            "1": "Min. deposit: R$ 10",
+            "2": "Max. deposit: R$ 4999",
+            "3": "Enter values as multiples of 10, for a faster processing.",
+            "4": "Please enter your information correctly to ensure that your payment will be processed as soon as possible."
+        },
+        "withdraw": "Withdraw",
+        "withdrawNotes": {
+            "title": "Withdrawal Instructions",
+            "1": "Number of withdrawals at current VIP level: {amount}",
+            "2": "Withdrawal fee: {fee}%",
+            "3": "Free monthly withdrawal amount:",
+            "4": "Minimum withdrawal order: {min}",
+            "5": "Maximum withdrawal order: {max}",
+            "6": "Pick-up time: 11:00 - 19:00",
+            "7": "Payment time: from 5 minutes to 24 hours."
+        },
+        "status": "You can see status of your deposits in account center."
+    },
+    "userModal": {
+        "joined": "Joined on {date}",
+        "wagered": "Wagered",
+        "totalGames": "Total games"
+    },
+    "faucet": {
+        "spin": "<b>Lucky Spin</b><span>SPIN TO GET UP TO <b>R$777</b></span>",
+        "btn": "Spin Now",
+        "timeout": "Come back in 20 minutes to have another chance!"
+    },
+    "footer": {
+        "features": {
+            "title": "Features",
+            "affiliates": "Affiliates",
+            "referral": "Referral",
+            "promotions": "Promotions",
+            "daily": "Daily Bonuses",
+            "sport": "Sport",
+            "liveSport": "Live Sport",
+            "more": "More",
+            "fairness": "Fairness",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "support": "Live Support"
+        },
+        "legal": "This website offers gaming with risk experience. To be a user of our site you must be over 18 y.o. We are not responsible for the violation of your local laws related to i-gaming. Play responsibly and have fun on BetDino.",
+        "copy": "Copyright &copy; BetDino. All right reserved."
+    },
+    "promotions": {
+        "vip": {
+            "title": "<span>Exclusive</span> VIP bonus",
+            "description": "To give back to all BetDino users, the VIP reward mechanism is now open. As long as you can meet the requirements, you can receive generous bonuses!",
+            "activity": "<span>Activity</span> Requirements",
+            "activity2": "Players upgrade to a new VIP level you will get free bonus, no withdrawal requirements.",
+            "bonus": "Event Bonus",
+            "bonus2": "Players can receive corresponding rewards when they reach the VIP level.",
+            "vip": "VIP",
+            "vip2": "VIP {level}",
+            "reminder": {
+                "1": "Special Reminder",
+                "2": "Each player can receive the corresponding bonus for each upgrade, and the bonus can be overridden."
+            },
+            "reminder2": {
+                "1": "<span>Detailed</span> Description",
+                "2": "Ensure the accuracy and uniqueness of your name, Contact information and CPF. If the same player uses different Network IPs to register multiple accounts and receive bonuses, This will be considered cheating and your account will be permanently frozen."
+            },
+            "reminder3": {
+                "1": "<span>Instructions</span> for participating in the event:",
+                "2": "From the day of the event announcement, you can only get the bonus if you upgrade your VIP"
+            }
+        },
+        "invite": {
+            "title": "<span>Invite</span> Friends to Create Wealth Together",
+            "description": "Become one of our top partners Achieve a monthly income of R$ 100,000",
+            "desc": "Referral Program",
+            "desc2": "Let the world know about Betdino - refer more people and earn big money, having more chance to supplement your income.",
+            "code": "Get a Unique Referral Code",
+            "copy": "Copy Code",
+            "1": "If you are a blogger or influencer, you have a large audience and followers. We have special rewards for you! (Affiliate program with the highest referral rewards)",
+            "2": "Important note: Only users who have passed the manager's request and approved, can participate in the program",
+            "consult": "Consultation",
+            "invited": "Invited:",
+            "totalBet": "Total Bet:",
+            "totalDeposit": "Total Deposit:"
+        },
+        "benefits": {
+            "title": "<span>Millions</span> of Distributor Benefits",
+            "description": "To encourage all BetDino users millions of benefits are offered to competent agents who meet the requirements to receive a generous bonus.",
+            "activity": {
+                "1": "Activity Requirements",
+                "2": "Agents who invite new users with valid recharge will receive a super bonus for the invitation."
+            },
+            "bonus": {
+                "1": "Event Bonus",
+                "2": "Agents can also receive additional rewards for reaching different referral levels."
+            },
+            "table": {
+                "title": "Achievement Bonus",
+                "active": "Active Users",
+                "bonus": "Achievement Bonus",
+                "desc": "<span>Active users:</span> registered via your invite link and deposited When you reach the required number of active users, you will receive an additional bonus The more guests you have, the greater the bonus",
+                "reminder": {
+                    "1": "Special Reminder",
+                    "2": "With no withdrawal requirements, the more users Agents invite and reload, the higher the rank and the greater the benefits."
+                },
+                "details": {
+                    "1": "Details",
+                    "2": "Ensure the accuracy and uniqueness of your name, unique CPF If the same broker uses different network IPs to register multiple accounts and receive bonuses, this will be considered fraud and your account will be permanently frozen."
+                }
+            },
+            "guide": {
+                "1": "INSTRUCTIONS FOR PARTICIPATING IN THE EVENT",
+                "2": "From the date of the announcement until the delivery of the prize of one million reais in bonuses. Official campaign rules are at BetDino’s sole discretion."
+            }
+        },
+        "bonus50": {
+            "title": "<span>Come</span> and get 50% bonus!",
+            "description": "In order to thank you for your trust and support in BetDino, your first successful deposit amount of more than R$100, BetDino will give you a free bonus of 50% of the deposit amount, I sincerely wish you to earn more! your deposit, the bonus will automatically be credited to your account, so please check the system for messages sent to you",
+            "title2": "Requirements and bonus",
+            "limit": {
+                "1": "Deposit limit",
+                "2": "R$ 100 OR MORE"
+            },
+            "bonus": {
+                "1": "Bonus",
+                "2": "50% of the deposit amount"
+            },
+            "rules": "Rules",
+            "list": {
+                "1": "Only the first order with a deposit amount of R$100 or more can participate in this event, and this event can only participate once",
+                "2": "Withdrawal conditions: the effective bet amount is equal to or greater than 20 times or more of the sum of the deposit amount and the bonus amount",
+                "3": "After completing the deposit, submitting the application in the personal promotion center, you will receive BetDino's lucky bonus and the bonuses can be played and withdrawn!",
+                "4": "Please ensure that your name, contact details and Social Security number are accurate and unique. If the same player uses different network IPs to register multiple accounts to claim the prize, this will be considered cheating and their account will be permanently frozen."
+            }
+        }
+    },
+    "vip": {
+        "totalDeposits": "Total deposits",
+        "totalWagered": "Total bets",
+        "logged": {
+            "title": "Your vip level is",
+            "level": "level {level}",
+            "deposit": "Deposit",
+            "bet": "Bet",
+            "description": "Upgrading to VIP {level} requires:",
+            "dep": "Deposit",
+            "full": "Full vip bonus",
+            "desc2": "The BetDino VIP level system is created with 10 levels, each with a corresponding cash prize. The more you play, the higher the VIP level and the more you will receive.",
+            "totalBet": "Accumulated Bet Amount",
+            "totalDeposit": "Accumulated Deposit Amount",
+            "steps": {
+                "1": "Place a bet on an original or LIVE game and the MONEY BACK engine will automatically calculate the return value based on your VIP level as you enjoy the game.",
+                "2": "The cash back mechanism will be settled on your account balance at 0:00 based on your bets placed throughout the day.",
+                "3": "The more you play, the higher your money back."
+            }
+        },
+        "title": "A lot of benefits with",
+        "title2": "Rank system",
+        "benefits": {
+            "1": {
+                "title": "Levels & Rewards",
+                "description": "The more you play - the more you gain"
+            },
+            "2": {
+                "title": "INCREASED CASHBACK",
+                "description": "Receive up to 25% of your coins back"
+            },
+            "3": {
+                "title": "EXCLUSIVE PROMOTIONS",
+                "description": "Reach higher rank to unlock unique benefits"
+            },
+            "4": {
+                "title": "VIP CLUB",
+                "description": "Become a part of VIP Club to get exclusive bonuses"
+            }
+        },
+        "how": {
+            "1": "How does it work?",
+            "2": "You start your gaming way from the 1st Rank – NEWCOMER. The more you play – the higher your Rank is. It goes up according to the wagered amount while playing on BetDino"
+        },
+        "youCanReach": {
+            "1": "YOU CAN REACH 10 LEVELS",
+            "2": "Reach the high top Rank - LEGEND to get a 25% cashback bonus and open all the benefits of the platform. Stay with BetDino to receive the best gaming experience and excellent service"
+        },
+        "allLevels": {
+            "level": "Level {level}",
+            "oneTimeBonus": "One Time Bonus",
+            "withdraws": "Withdraws",
+            "fee": "Withdrawal fee",
+            "depositFeeRef": "Referral deposit fee",
+            "claim": "Claim Bonus",
+            "yourLevel": "Your Level",
+            "about": {
+                "title": "ABOUT VIP CLUB",
+                "description": "High top Rank - LEGEND has 25% cashback bonus and the best benefits. Stay with BetDino to receive the best gaming experience and high level of service!",
+                "sub": "Being a member of the VIP club means that you have access to:",
+                "features": {
+                    "1": "Personal VIP manager",
+                    "2": "Insights",
+                    "3": "Higher cashback rewards",
+                    "4": "Weekly and Monthly bonuses",
+                    "5": "Other additional perks"
+                }
+            }
+        },
+        "steps": {
+            "playNow": "Play Now",
+            "1": {
+                "title": "LOGIN ON BETDINO",
+                "description": "Use a simplified login system to enjoy all gaming experience on BetDino"
+            },
+            "2": {
+                "title": "PLAY FAVORITE GAMES",
+                "description": "Enjoy playing, get the best gaming experience and high level of service!"
+            },
+            "3": {
+                "title": "INCREASE YOUR RANK",
+                "description": "Go up to the next Rank! Each level has its bonus and even more opportunities!"
+            }
+        }
+    },
+    "affiliate": {
+        "title": "Affiliate",
+        "title2": "Commission ready everyday",
+        "title3": "<span>R$ 1,000,00</span> just a referral away",
+        "create": "Create Referral Code Now",
+        "title4": "Start Earning Today",
+        "description": "If you have any special offers regarding cooperation or you have access to a large audience. Please feel free to contact our manager by <a href=\"https://example.com\">Telegram</a>. We're happy to discuss individual terms of the affiliate program tailored to you.",
+        "1": {
+            "title": "Build Your Own<br>Casino Club Quickly",
+            "description": "It's hard to build a casino, but you can start from managing your own table on BETDINO",
+            "description2": "<span>BETDINO</span> is not just games, it’s a platform to realize the potential of your hidden dreams. Join BETDINO and set sail on a new chapter in your wealth journey immediately!"
+        },
+        "2": {
+            "title": "Build A Casino Website<br>With Your Own Domain.",
+            "description": "If you got your own plan. you can set up a casino website with your own domain, design style and theme. If you are capable to invite players and their wager amount reaches a billion dollars and above, you will be able to get your own customized casino!",
+            "description2": "Contact <a href=\"mailto:Affiliate@betdino.com\">Affiliate@betdino.com</a> for more details"
+        },
+        "sep": "<span>Affiliate</span> Reward System",
+        "sepDesc": "Click \"Create Referral Code Now\" and set sail on a new chapter on your journey of wealth immediately!",
+        "3": {
+            "title": "R$ Rewards",
+            "description": "Every friend you'll invite will<br>get you <span>R$ 1000</span>",
+            "vip": "VIP Level",
+            "rewards": "Rewards",
+            "vipLevel": "VIP {level}"
+        },
+        "4": {
+            "title": "Commission rewards",
+            "description": "Every friend you invite will rebate you a percentage of their wagers as your commission and will be credited directly to your balance.",
+            "content": "Your referred members will rebate you a percentage of their wagers as your commision. Please see below:"
+        }
+    },
+    "referral": {
+        "tabs": {
+            "invite": "Invite",
+            "forms": "Forms",
+            "stats": "Statistics"
+        },
+        "history": {
+            "user": "User",
+            "type": "Type",
+            "amount": "Amount",
+            "date": "Date",
+            "empty": "You haven't received any bonus yet."
+        },
+        "forms": {
+            "title": "Profit Today",
+            "bc": "Betting Commission",
+            "ib": "Invitation Bonus",
+            "description": "Your profit will consist of two components - Invitation Bonus and Betting Commission<ul><li>Betting Commission: This will be your main income and you will receive a different percentage of each bet you invite players to make as a commission.</li><li>Invite Bonus: The user you invite to deposit for the first time will receive a cash bonus of R$8</li></ul>",
+            "total": "Total Profit",
+            "deposited": "Deposited Users",
+            "desc": "You receive a commission for every bet you invite users to make, win or lose. So all you have to do is improve your gaming skills, think about how to win the game and share it with everyone to help more people win with your method. We want all players to have fun at BetDino, whether it's the fun of winning bets or the game itself!"
+        },
+        "invite": {
+            "title": "Invite a Partner",
+            "url": "Invite URL:",
+            "code": "Invite code:",
+            "deposited": "Deposited Users",
+            "bonus": "Bonus Today",
+            "yesterday": "Yesterday's Bonus",
+            "issued": "Awards Issued Today",
+            "bonus2": "Invitation Bonus",
+            "bc": "Betting Commission",
+            "how": "How does the invitation bonus work?",
+            "how2": "Invitation Bonus",
+            "how3": "Each deposit user can receive at least <b>R$8</b> for each invite. The more people you invite, the greater the invite bonus for the corresponding level.<br>For specific rules, see the table below",
+            "deposited2": "Deposited",
+            "bonus3": "Bonus",
+            "commission": {
+                "title": "HOW TO GET COMMISSION ON YOUR BETS",
+                "description": "Invite Rules: Valid invite level can reach level 3, and the wager discount reward is <br>- [Level 1- <b>0.15%</b> ]<br>- [Level 2- <b>0.07%</b> ] <br>- [Level 3- <b>0.02%</b> ]<br>Reward Issuance Time: Real-time settlement and issuance<div class=\"more\">For example, the invite ratio is A invite B, B invite C, C invite D, D invite E. When E bets 10000BRL<br>※ D can get 10000 * 0.15% = <b>15 R$</b><br>※ C can get 10000 * 0.07% = <b>7 R$</b><br>※ B can get 10000 * 0.02% = <b>2 R$</b><br>※ A has no return in three Levels.</div>",
+                "description2": "This will be your long-term income and you will receive a different percentage of commission each time a player you invite places a bet."
+            },
+            "calculator": {
+                "title": "Income Calculator",
+                "description": "Invite {amount} Users assets Expected annual income to be earned"
+            },
+            "leaderboard": {
+                "title": "Leaderboard",
+                "place": "Top {place}"
+            },
+            "whoWon": {
+                "title": "Who Won The Prize"
+            }
+        }
+    },
+    "profile": {
+        "tabs": {
+            "balance": "Balance Management",
+            "history": "Account History",
+            "invite": "Invite",
+            "responsible": "Responsible Gaming"
+        },
+        "balance": {
+            "balance": "Balance",
+            "myLevel": "My VIP Level",
+            "deposit": "Deposit",
+            "bet": "Bet",
+            "allLevels": "All Levels",
+            "withdraw": "Withdraw",
+            "available": "Available",
+            "bonus": "Bonus"
+        },
+        "invite": {
+            "tabs": {
+                "invite": "Invite",
+                "invited": "Invited people",
+                "bonus": "Bonus"
+            },
+            "title": "Invite Friends and Create Wealth Together",
+            "description": "Want to earn more income easily? Do you want your friends to find a way to get rich? Join us and let us work together!",
+            "copyInvite": "Copy invite URL",
+            "copyInviteCode": "Copy Invitation Code",
+            "wagered": "Wagered",
+            "deposited": "Deposited",
+            "name": "User",
+            "activity": "Is Active",
+            "empty": "Nobody has registered using your link or invite code.",
+            "bonus": {
+                "user": "User",
+                "type": "Type",
+                "amount": "Amount",
+                "date": "Date",
+                "deposit_fee": "Deposit",
+                "activity_bonus": "Active referral",
+                "millions_of_distributor_benefits": "Millions of Distributor Benefits",
+                "empty": "You haven't received any bonus yet."
+            }
+        },
+        "responsible": {
+            "tabs": {
+                "bets": "Limit Betting Time",
+                "deposit": "Deposit Limit"
+            },
+            "betBan": "You can't place bets until {time}",
+            "description": "If you want to take a temporary break, you can use our timeout feature to take a break from 1 to 30 days.",
+            "send": "Send Now",
+            "depositBan": "Your deposit limit: R$ {amount}, active until {time}",
+            "depositDescription": "Deposit Limit allows you to set a limit on the amount of money you deposit into your online account.",
+            "depositSet": "Set deposit amount (R$):",
+            "time": "For the next (1/7/14/30) days"
+        },
+        "history": {
+            "tabs": {
+                "deposit": "Deposit History",
+                "withdraw": "Withdraw History",
+                "game": "Game History"
+            },
+            "deposit": "Deposit",
+            "paid": "Paid",
+            "pending": "Pending",
+            "cancelled": "Cancelled",
+            "noDeposits": "You haven't deposited yet.",
+            "name": "Withdraw",
+            "sum": "Amount",
+            "date": "Date",
+            "status": "Status",
+            "noWithdraws": "You haven't withdrawn anything yet.",
+            "withdraw": {
+                "moderation": "Pending",
+                "cancel": "Cancel",
+                "declined": "Declined",
+                "reason": "Reason",
+                "cancelled": "Cancelled"
+            }
+        }
+    },
+    "paymentError": {
+        "title": "Error",
+        "description": "Sorry, payment service is temporarily unavailable. Try again later."
+    },
+    "sliderDescription": {
+        "title": "<span>The best</span> betting website",
+        "description": "Casino where everyone is treated like a <b>VIP!</b>",
+        "description2": "Casino made for the players with up to <b>15%</b> Cashback.",
+        "description3": "<b>Daily $1000</b> Wagering contest!",
+        "signUp": "Sign Up",
+        "spin": "Spin Free Dino Wheel",
+        "win": "and Win up to <b>R$777</b>",
+        "logged": {
+            "title": "<span>BetDino</span>, The Best Igaming Casino",
+            "description": "<b>BetDino</b> presents the most generous and various",
+            "description2": "bonuses. <b>Invite friends</b> to earn up to <span>R$15</span> bonus each"
+        }
+    },
+    "comingSoon": "Coming Soon",
+    "fairness": {
+        "title": "How to check<br>fairness?",
+        "description": "Even Lucky result on BetDino is<br>absolutely random. Check it yourself!",
+        "how": "How does it work?",
+        "how2": "The provably fair principle is based on SHA256 technology the same as Bitcoin. The procedure of checking bets result allows you to verify the fairness of each bet.",
+        "01": {
+            "title": "Find your client seed and nonce",
+            "description": "Client seed could be of any value. By default it's generated randomly - open game settings and find it there, but you can change it.<br>Nonce starts at 1 and increases by 1 every time you start a new game."
+        },
+        "02": {
+            "title": "Place a Bet",
+            "description": "Server seed will be generated, but it will be hidden until you finish the game.<br>Open \"History\" tab and look at your last game. All information will be here - including server seed.<br>Now you have 3 values - server and client seed alongside nonce."
+        },
+        "03": {
+            "title": "Verify",
+            "description": "Enter client seed, server seed and nonce in verifier. Result should be identical."
+        }
+    },
+    "third-party": {
+        "unavailable_currency": "Sorry, but you can't play with this currency.",
+        "guest": "You need to login in order to play this game."
+    },
+    "chat":{
+        "service": {
+            "channel_change": "Changed channel to: {channel}",
+            "channel_casino": "Casino ({lang})",
+            "channel_sport": "Sport ({lang})"
+        },
+        "error":{
+            "length":"Message is too short or long",
+            "muted":"Chat is muted"
+        }
+    },
+    "dice":{
+        "lower":"Lower",
+        "higher":"Higher",
+        "chance":"Chance"
+    },
+    "error":{
+        "code":"Internal server error occurred ({code})",
+        "wait_finish":"Wait for the game to finish",
+        "validation":{
+            "required":"Fill in this field",
+            "min":{
+                "string":"Value is too small"
+            },
+            "max":{
+                "string":"Value is too large"
+            },
+            "unique":"This value has already been registered",
+            "regex":"Invalid value"
+        },
+        "invalid_browser":"<h1>Your web browser is out of date.</h1>To play on betdino.io, you need to upgrade to the latest version.",
+        "no_js":"<h1>Error</h1>Your web browser does not support JavaScript."
+    },
+    "game_help":{
+        "next":"Next",
+        "close":"Close",
+        "dice":{
+            "1":"Set the slider chance of winning and click \"Play\", to generate a result from 0 - 100",
+            "2":"If the bones fell in your chosen green zone - you won!"
+        },
+        "wheel":{
+            "1":"Select a game mode, bet on color and press \"Play\"",
+            "2":"If the wheel stops at the color sector that you have chosen, you won!"
+        },
+        "x50":{
+            "1":"Select a game mode, bet on color and press \"Play\"",
+            "2":"If the wheel stops at the color sector that you have chosen, you won!"
+        },
+        "plinko":{
+            "1":"Place a bet, select the difficulty of the game and the number of pins, and click \"Play\"",
+            "2":"The greater the complexity of the game and the number of pins, the higher the maximum and lower minimum winning odds",
+            "3":"Your reward is determined by the winning ratio, depending on where the ball fell"
+        },
+        "keno":{
+            "1":"Pick from 1 to 10 cells with numbers, place a bet and click \"Play\"",
+            "2":"Then the system randomly selects 10 numbers. The more hits on your numbers, the greater the gain!"
+        },
+        "mines":{
+            "1":"Place a bet, select the number of bombs and click \"Play\"",
+            "2":"The larger the number of bombs in the playing field, the higher the winning ratio.",
+            "3":"Look for stones, but beware of bombs!",
+            "4":"Take a win before you detonate on a bomb and lose a bet!"
+        },
+        "diamonds":{
+            "1":"Get the best diamond combination to win.",
+            "2":"The best combination is 5 identical diamonds.",
+            "3":"The combination hierarchy is similar to traditional poker."
+        },
+        "coinflip":{
+            "1":"Place a bet and click \"Play\" and guess what color will fall.",
+            "2":"You can guess a coin an unlimited number of times per game, all coefficients will be added up."
+        },
+        "blackjack":{
+            "1":"Place a bet, after which you and the dealer will be dealt two cards.",
+            "2":"Then you can take another card or stop and do not change the current hand.",
+            "3":"By clicking on \"Double\" you double your bet and take the last card.",
+            "4":"Insurance is available only when the first dealer card is an ace and insures you from the hands of a dealer with blackjack.",
+            "5":"The winner is the one closest to 21. If you and the dealer have the same value - there will be a draw."
+        },
+        "roulette":{
+            "1":"Put chips on any outcome of the game and click \"Play\"",
+            "2":"If you guessed the outcome of the game, you multiply your bet."
+        },
+        "baccarat":{
+            "1":"You can bet on the victory of a player, banker or a draw both individually and in any combination.",
+            "2":"The victory is won by the party with the most points close to 9. When a value of 10 or more is set, only the second digit of the double-digit number is taken into account.",
+            "3":"If at an individual bet on a player or a banker both parties gain the same amount of points, then the result is a tie without losing a bet.",
+            "4":"The maximum deal in one hand is 3 cards. The minimum is 2 if their total points are 5 or more."
+        },
+        "hilo":{
+            "1":"Guess if the next card will be higher or lower than the previous one in rank.",
+            "2":"Open an unlimited number of cards, odds are added up. You can stop at any time and pick up the winnings"
+        },
+        "limbo":{
+            "1":"To win, the specified target payout ratio must be lower than the one that fell out in the game.",
+            "2":"The maximum target ratio is 1,000,000."
+        },
+        "crash":{
+            "1":"Make a bet, click \"Play\" and watch how the schedule grows",
+            "2":"Withdraw funds before the chart collapses and you lose your bet."
+        },
+        "stairs":{
+            "1":"Make a bet, select the number of stones per move and click \"Play\"",
+            "2":"Climb up the stairs beware of falling on stones! The higher you rise, the greater the gain you will receive. ",
+            "3":"You can pick up a win at any time or go through all 13 moves and get the maximum reward."
+        },
+        "tower":{
+            "1":"Place a bet, select the number of bombs and click \"Play\"",
+            "2":"Look for stones moving from top to bottom, but beware of bombs!",
+            "3":"Take a win before you detonate on a bomb and lose a bet!"
+        },
+        "videopoker":{
+            "1":"Place a bet and click \"Play\"",
+            "2":"Next you will be dealt 5 cards. You can leave the cards you need by clicking on them. To end the game, click on \"Deal cards\" ",
+            "3":"If the combination is the same as shown in the table, you win and multiply your bet."
+        },
+        "bullvsbear":{
+            "1":"Each game starts out by determining what the ‘Game’s Strike Price’ will be by taking the averaged price of selected coin. We aren't using a price oracle, but instead we pull the market price directly from Coinbase’s Price Websocket API. This number is what traders will use to bet against in the following phase to predict if the market price will be above or below the “Game’s Strike Price” at the end of each game.",
+            "2":"Once the Game’s Strike Price has been set, players have one minute to bet on whether the market price at the end of each game will be above or below this number. All bets are put into two pools, those who predict the price will be above, and those who predict the price will be below.",
+            "3":"At the end of each game, the losing side’s bets are pooled and distributed to the winners proportionately. If a player bets more than the other winners, he or she will receive more of the pool. Now if a player loses, their losses are also proportionate to the size of their, meaning if a player bets more than the other players, in this situation that player won’t lose their entire bet, just a fraction.",
+            "4":"We wanted to avoid giving any significant advantage to last movers, hence we implemented a time-decaying gain factor to incentivize prompt betting — giving early movers better gains (or winnings) and discouraging people from bet stuffing late in the round. As a trader, you can keep an eye on current volatility and make your bet by waiting a little longer and taking lesser gains but with higher probability, or alternately, betting early with higher potential gain but lower probability of winning the game.",
+            "5":"Every betting round is 90 seconds long and starts at x5.00 payout. It decreases over time till it becomes x1.01."
+        }
+    },
+    "general":{
+        "viewAll": "View All",
+        "enjoy": "Enjoy 1000+ games",
+        "search": "Search for Games",
+        "unavailable_country": "Your IP address appears to be from {country}, a jurisdiction in which we can not legally accept players. Occasionally this is a false positive, e.g. the result of connecting through a proxy server in {country}. If so you may continue provided you are located and reside where such service is legal. Please remember that it is your obligation to obey local laws at all times.",
+        "not_in_this_country": "I'm not located in {country}",
+        "slowmode": "Slow mode is enabled: 1 message each 5 sec",
+        "head":{
+            "vip": "VIP {level}",
+            "deposit": "Deposit",
+            "bet": "Bet",
+            "user": {
+                "1": "VIP level",
+                "2": "Personal Center",
+                "3": "Game History",
+                "4": "Log out"
+            },
+            "bonusBalance": {
+                "title": "Bonus",
+                "available": "Available: {count}",
+                "empty": "You don't have any bonus balance available.\nYou will be able to choose which bonus balance to play with.\nBonus balance will become available for withdrawal once you meet the requirement.",
+                "balance": "Balance:",
+                "wager": "is needed to be wagered to be able to withdraw this bonus",
+                "cancel": "Cancel"
+            },
+            "allGames": "All games",
+            "slots": "Slots",
+            "live": "Live Casino",
+            "originals": "Originals",
+            "promotions": "Promotions",
+            "index":"Home",
+            "games":"Games",
+            "help":"Help",
+            "wallet":"Deposit",
+            "wallet_open_demo":"Demo",
+            "wallet_real":"Real",
+            "wallet_demo":"Demo",
+            "chat":"Chat",
+            "admin":"Admin",
+            "bonus":"Promotions",
+            "bonus_short":"Bonus",
+            "profile":"Profile",
+            "logout":"Logout",
+            "casino": "Casino",
+            "sport": "Sport",
+            "view_in_fiat": "View in USD"
+        },
+        "sidebar":{
+            "promotions": "Promotions",
+            "bonus50": "50% One-Time Deposit Bonus",
+            "vipBonus": "Exclusive VIP Bonus",
+            "benefits": "Distributor Benefits",
+            "invite": "Invite Friends",
+            "allPromotions": "All promotions",
+            "dashboard": "Dashboard",
+            "affiliates": "Affiliates",
+            "allGames": "All games",
+            "vip": "VIP Rank System",
+            "allBonuses": "All Bonuses",
+            "referral": "Referral",
+            "fairness": "Fairness",
+            "app": "App Download",
+            "support": "Live Support",
+            "all_games": "Games",
+            "admin": "Admin",
+            "favorite": "Favorite",
+            "recent": "Recent",
+            "originals": "Originals",
+            "slots": "Slots",
+            "multiplayer": "Multiplayer",
+            "blackjack": "Blackjack",
+            "poker": "Poker",
+            "table": "Table Games",
+            "instant": "Instant",
+            "roulette": "Roulette",
+            "baccarat": "Baccarat",
+            "no_games": "This category is empty",
+            "mark_as_favorite": "Mark as favorite",
+            "remove_from_favorite": "Remove from favorites",
+            "phoenix": "Phoenix"
+        },
+        "chat_commands":{
+            "/user":"View user",
+            "/bet":"View bet",
+            "/ignore":"Ignore user",
+            "/unignore":"Stop ignoring user",
+            "/tip":"Tip user",
+            "/rain":"Make it Rain",
+            "/online":"View online users",
+            "/quiz": "Quiz",
+            "/unmute": "Unmute user",
+            "modal":{
+                "rain":{
+                    "amount":"Amount",
+                    "number_of_users":"Number of Users (Max 25)",
+                    "send":"Send",
+                    "invalid_users_length":"Invalid number of users",
+                    "invalid_amount":"Invalid amount"
+                },
+                "tip":{
+                    "amount":"Amount",
+                    "send":"Send Tip",
+                    "user":"Username",
+                    "make_public":"Make public",
+                    "invalid_name":"Invalid username",
+                    "invalid_amount":"Invalid amount",
+                    "notify":"{name} tipped you {value} {currency}"
+                },
+                "quiz": {
+                    "question": "Question",
+                    "answer": "Answer"
+                }
+            }
+        },
+        "biggest_winner_today": "LUCKY WINNERS",
+        "tip":"Tip",
+        "tip_chat":"<a href=\"{link}\">{name}</a> sent {value} {currency} to <a href=\"{tolink}\">{toname}</a>",
+        "or": "OR",
+        "wallet":{
+            "demo":{
+                "error":"Your demo balance must be at zero",
+                "obtain":"Receive demo balance"
+            }
+        },
+        "demo":{
+            "title":"Attention",
+            "description":"Registration is required if you want to play for real balance.",
+            "register":"Sign up"
+        },
+        "chat":{
+            "enter_message":"Type something here..."
+        },
+        "auth":{
+            "code": "Invite Code (Optional)",
+            "login":"Log in",
+            "register":"Sign Up",
+            "through_login":"Login and password",
+            "through_social":"Social networks",
+            "wrong_credentials":"Wrong login or password",
+            "email_or_login": "Enter your email or login",
+            "reset_password": "Reset password",
+            "email_was_sent": "Email was sent successfully. If you haven't received it, check \"Spam\" folder.",
+            "passwords_invalid_match": "Verify your password again",
+            "credentials":{
+                "login":"Login",
+                "password":"Password",
+                "email":"Email"
+            },
+            "create_account":"Create account",
+            "forgot_password":"Forgot your password?",
+            "notice":"I am at least 18 years old and have read and agree to the Terms & Conditions and Privacy Policy"
+        },
+        "notifications":{
+            "title":"Notifications",
+
+            "withdraw_accepted":{
+                "title":"betdino.io",
+                "message":"Your payment request created {diff} ({sum} {currency}) was accepted."
+            },
+            "withdraw_declined":{
+                "title":"betdino.io",
+                "message":"Your payment request created {diff} ({sum} {currency}) was declined. Reason: {reason}"
+            },
+            "vip_discord":{
+                "title":"VIP",
+                "message":"You have received <svg style=\"width: 14px; height: 14px\"><use href=\"#vip-ruby\"></use></svg> ruby VIP status!"
+            },
+            "email_reminder":{
+                "title":"betdino.io",
+                "message":"Don\"t forget to add email address, otherwise you could lose access to your account!"
+            },
+            "deposit":"New deposit: {sum} {currency}"
+        },
+        "play_now": "Play Now",
+        "become_top_player": "Nobody took this place in the leaderboard today! Become first to do that!",
+        "lines":"Lines",
+        "profit_per_line":"Bet Amount Per Line",
+        "invalid_amount_per_line":"Invalid bet amount per line",
+        "ignore":"Successfully added to ignore list",
+        "unignore":"You no longer ignore this user",
+        "ignored_already":"You already ignore this user",
+        "not_ignored":"This user is not ignored",
+        "not_available":"Unavailable",
+        "obtained":"Obtained",
+        "latest_bets": "Live",
+        "bets":{
+            "event": "Event",
+            "odds": "Odds",
+            "game":"Game",
+            "player":"Player",
+            "time":"Time",
+            "bet":"Bet",
+            "mul":"Payout",
+            "win":"Profit",
+            "manual":"Manual",
+            "auto":"Auto",
+            "games":"Number of games",
+            "victory_stop":"Stop on Win",
+            "on_win":"On win",
+            "on_loss":"On loss",
+            "reset":"Reset",
+            "increase":"Increase",
+            "auto_games_blocked":"To set a limit, click on &#8734;.",
+            "hidden":"The player has hidden his profile",
+            "hidden_name":"Hidden",
+            "make_bet":"Place a bet",
+            "all":"All",
+            "mine":"My Bets",
+            "high_rollers":"High Rollers",
+            "lucky_wins":"Lucky Winners"
+        },
+        "error":{
+            "invalid_password_confirm":"Passwords don\"t match",
+            "offline_node":"We are currency unable to process payments for this currency.",
+            "auth":"Authorization is required",
+            "wager":"Minimal amount - {value}",
+            "disabled":"Game is temporarily unavailable",
+            "unknown_game":"Unknown game",
+            "unknown_user":"Unknown user",
+            "invalid_wager":"Not enough money",
+            "unknown_error":"An error has occurred (code {code})",
+            "empty":"Select cells!",
+            "should_have_empty_balance":"To receive a bonus, your balance must be zero.",
+            "autobet_pick_something":"Select cells for automatic bid mode.",
+            "disabled_notifications":"You have refused to accept notifications. This can be changed in your browser settings.",
+            "connection_lost":"Connecting to the server...",
+            "connection_recovered":"Connection restored",
+            "disabled_bets":"Accepting bets is currently unavailable.",
+            "disabled_demo_bets":"This game does not accept bets in demo mode.",
+            "muted":"Chat is muted until {time}",
+            "invalid_withdraw":"Invalid withdrawal amount.",
+            "only_one_withdraw":"You already have ordered withdrawal.",
+            "enter_wallet":"Enter wallet!",
+            "promo_limit":"You have reached your promocode activation limit per day.",
+            "autobet_mines_error":"You have selected more cells than the available crystals.",
+            "vip_only_promocode":"This promotional code is only available with VIP status.",
+            "promo_balance_limit": "Your balance should be lower in order to activate promocodes"
+        },
+        "profit_monitoring":{
+            "title":"Statistics",
+            "wager":"Wager",
+            "profit":"Profit",
+            "wins":"Wins",
+            "losses":"Losses",
+            "no_data":"No data"
+        },
+        "rain":"It's raining!<br>{sum} {currency}",
+        "snow":"It's snowing!<br>{sum} {currency}",
+        "quiz":"Question:",
+        "quiz_answer":"Correct answer:",
+        "quiz_user":"User:",
+        "chart":"Chart",
+        "hilo-skip":"Skip",
+        "crash":"CRASHED",
+        "yes":"Yes",
+        "no":"No",
+        "coming_soon":"Coming Soon",
+        "reload":"recharge",
+        "spin":"Spin",
+        "wager":"Bet amount",
+        "chip":"Chip Value ({value})",
+        "profit":"Profit",
+        "payout":"Payout",
+        "play":"Play",
+        "our_games":"Our Games",
+        "unit":"Unit",
+        "cancel":"Cancel",
+        "undo":"Undo",
+        "close":"Close",
+        "change":"Change",
+        "even":"even",
+        "odd":"odd",
+        "to":"{1} - {2}",
+        "take":"Take {value} {currency}",
+        "start":"Start",
+        "stop":"Stop",
+        "overview":"View",
+        "share_text":"Watch my game on betdino.io!",
+        "share_vk":"Share the link on VK",
+        "share_chat":"Send to chat",
+        "share_telegram":"Share this game on Telegram",
+        "share_twitter":"Share this game on Twitter",
+        "share_link":"Share the link",
+        "link_copied":"Copied!",
+        "game_mode":"Game mode",
+        "color":"Color",
+        "pins":"Number of pins",
+        "autopick":"<i class=\"fas fa-wand-magic mr-1\"></i> Auto Pick",
+        "clear":"Clear",
+        "mines":"Number of mines",
+        "edit":"Edit",
+        "add":"Add",
+        "already_purchased":"Purchased",
+        "purchase_sticker_pack":"Buy for {coins} <i class=\"fas fa-coins\"></i>",
+        "hilo-higher":"Higher",
+        "hilo-lower":"Lower",
+        "hilo-same":"Same",
+        "chance":"Chance",
+        "chat_at":"Type @<strong>username</strong> to notify user",
+        "autoStop":"Cashout at",
+        "target_payout":"Target payout",
+        "win_chance":"Win chance",
+        "demo_popup_link":"Play for money",
+        "double":"Double",
+        "divide":"Split",
+        "got":"Got",
+        "videopoker":{
+            "f_r":"Royal Flush",
+            "s_f":"Straight Flush",
+            "k":"Four of a kind",
+            "f_h":"Full House",
+            "f":"Flash",
+            "s":"Straight",
+            "t":"Triple",
+            "t_p":"Two pairs",
+            "p":"Pair (J, Q, K, A)"
+        },
+        "deal":"Deal cards",
+        "stand":"Stand",
+        "hit":"Hit",
+        "split":"Split",
+        "insurance":"Do you want insurance?",
+        "accept":"Accept",
+        "decline":"Decline",
+        "insurance_success":"You bought insurance.",
+        "blackjack":{
+            "0":"Draw",
+            "1":"You lose",
+            "2":"You won",
+            "3":"You won",
+            "4":"You lose",
+            "5":"You won",
+            "6":"You lose"
+        },
+        "difficulty":{
+            "title":"Difficulty",
+            "low":"Low",
+            "medium":"Medium",
+            "high":"High"
+        },
+        "baccarat":{
+            "player":"Player",
+            "tie":"Tie",
+            "pair_player":"{P} Pair",
+            "pair_banker":"{B} Pair",
+            "pair":"Pair",
+            "banker":"Banker",
+            "empty":"Become first - make a bet"
+        },
+        "verify":"Verify",
+        "black":"Black",
+        "red":"Red",
+        "green":"Green",
+        "yellow":"Yellow",
+        "blue":"Blue"
+    },
+    "404": {
+        "title": "Sorry, this page isn't available.",
+        "subtitle": "The link you followed may be broken, or the page may have been removed."
+    },
+    "sport": {
+        "emptyCategoryTitle": "No events are live right now",
+        "live_events": "Live Events",
+        "game_not_found": "Event is over or does not exist",
+        "game_is_closed": "Betting is closed",
+        "bet_slip": "Bet Slip",
+        "register_to_bet": "Register to Bet",
+        "bet": "Bet",
+        "single": "Single",
+        "multi": "Multi",
+        "no_odds_changes": "No Odds Changes Accepted",
+        "estimate_payout": "Est. Payout",
+        "empty_bet_slip_title": "Bet Slip is empty.",
+        "empty_bet_slip_subtitle": "Click the odds to add a bet",
+        "total_bet": "Total Stake",
+        "total_odds": "Total Odds",
+        "odds_change": "Odds changed: {odds}",
+        "accept": "Accept",
+        "decline": "Decline",
+        "not_enough_balance": "Not enough balance",
+        "error": "An error has occurred. Please try again in a few seconds.",
+        "created": "Bets have been successfully placed!",
+        "my_bets": "My Bets",
+        "ongoing": "Pending",
+        "finished": "Finished",
+        "no_bets_title": "No bets in this category.",
+        "index_welcome": "Add sport betting on your website.",
+        "lets_bet": "View",
+        "casino_welcome": "Welcome to Win5X.",
+        "no_category_events_slider": "No {category} events are live right now.",
+        "outcome": {
+            "refund": "Refunded",
+            "win": "Win",
+            "lose": "Lose"
+        },
+        "live": "Live",
+        "line": "Line",
+        "market": {
+            "yes": "Yes",
+            "no": "No",
+            "other": "Other",
+            "basketballDryWin": "One of the sets will end with a score of 6:0 or 0:6",
+            "bothTeamsWillScore": "Both teams will score",
+            "doubleOutcome": "Double outcome",
+            "exactScore": "Exact score",
+            "exactScoreNoOutcomeOther": "Exact score (No outcome, Other)",
+            "handicap": "Handicap",
+            "firstPlayerWinsAnySet": "First player wins one of the sets",
+            "secondPlayerWinsAnySet": "Second player wins one of the sets",
+            "setWinner": "Set {set}: Winner",
+            "winner": "Winner",
+            "outcomeWithoutDraw": "Result not including draw",
+            "winnerWithOT": "Winner (With Overtime)"
+        }
+    }
+}
