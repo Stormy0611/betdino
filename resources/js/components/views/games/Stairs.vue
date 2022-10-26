@@ -178,7 +178,7 @@
 
         @keyframes character-death {
             from { background-position-x: 0; }
-            to { background-position-x: -(352px - (352 / 10)); }
+            to { background-position-x: -(352px - (calc(352 / 10))); }
         }
 
         @keyframes character-run {
